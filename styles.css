@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4c8caf;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #4c8caf;
+}
+
+nav a:hover {
+    background-color: #4c8caf;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #4c8caf;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.header-container {
+    display: flex; /* Menggunakan Flexbox untuk tata letak */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    justify-content: center; /* Pusatkan konten */
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+.header-container {
+    display: flex; /* Menggunakan Flexbox untuk tata letak */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    justify-content: center; /* Pusatkan konten */
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+.logo {
+    width: 80px; /* Ukuran logo */
+    height: 80px; /* Tinggi logo */
+    border-radius: 50%; /* Membuat logo bulat */
+    margin-right: 20px; /* Jarak antara logo dan tulisan */
+    border: 2px solid white; /* Border putih untuk logo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan pada logo */
+}
+
+.container {
+    text-align: center; /* Pusatkan teks */
+    padding: 20px;
+    background-color: #e0f7fa; /* Warna latar belakang kontainer */
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+.eskul {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen jika melebihi lebar */
+    justify-content: center; /* Pusatkan konten */
+    margin-top: 20px; /* Jarak atas */
+}
+
+.eskul-item {
+    border: 1px solid #ccc; /* Border untuk setiap item */
+    border-radius: 8px; /* Sudut membulat */
+    margin: 10px; /* Jarak antar item */
+    padding: 10px; /* Padding dalam item */
+    width: 250px; /* Lebar item yang sama */
+    height: 300px; /* Tinggi item yang sama */
+    text-align: center; /* Pusatkan teks */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    display: flex; /* Menggunakan Flexbox dalam item */
+    flex-direction: column; /* Mengatur elemen menjadi kolom */
+    align-items: center; /* Pusatkan konten dalam item */
+}
+
+.eskul-img {
+    width: 100%; /* Membuat gambar memenuhi lebar item */
+    height: 150px; /* Tinggi tetap untuk gambar */
+    border-radius: 4px; /* Sudut membulat gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.mission-list {
+    list-style-type: disc; /* Menggunakan titik bulat besar */
+    margin: 10px 0; /* Jarak atas dan bawah untuk daftar */
+    padding-left: 20px; /* Indentasi untuk daftar */
+}
+
+.mission-list li {
+    margin-bottom: 5px; /* Jarak antara setiap item daftar */
+    line-height: 1.5; /* Jarak antar baris dalam item daftar */
+}
+
+
+
+
+
+
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen jika melebihi lebar */
+    justify-content: center; /* Pusatkan konten */
+    margin-top: 20px; /* Jarak atas */
+}
+
+.gallery-img {
+    width: 200px; /* Lebar gambar */
+    height: 150px; /* Tinggi gambar */
+    margin: 10px; /* Jarak antar gambar */
+    border-radius: 4px; /* Sudut membulat gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-list {
+    list-style-type: none; /* Hilangkan penomoran */
+    padding: 0;
+    font-size: 18px;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #4c8caf;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: white;
+    color: #4c8caf;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ddd;
+}
+
+/* About Section */
+.about {
+    background-color: white;
+    padding: 60
+
+    .misi-section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f0f8ff;
+        border-radius: 10px;
+    }
+    
+    .misi-section h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .misi-list {
+        list-style-type: disc; /* Menggunakan bullet point */
+        padding-left: 40px; /* Jarak kiri untuk bullet */
+        margin: 0;
+    }
+    
+    .misi-list li {
+        font-size: 18px;
+        line-height: 1.8; /* Menambahkan jarak antar baris */
+        text-align: left; /* Mengatur agar teks rata kiri */
+        margin-bottom: 10px; /* Jarak antar item daftar */
+        display: list-item; /* Pastikan setiap item daftar ditampilkan sebagai list */
+    }
+    
